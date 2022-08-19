@@ -45,7 +45,7 @@ Ejemplos de prueba usados en **Prob1.cpp**:
 *  ["dog", "race", "car"]
 *  ["hola", "hay", "hora"]
 *  ["a", "b", "c"]
-*  [" "]
+*  ["hola"]
 
 
 Ejemplos de prueba usados en **Prob2.cpp**:
