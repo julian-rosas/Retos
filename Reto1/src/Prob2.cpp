@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include<map>
+#include <map>
 
 using namespace std;
 
@@ -53,8 +53,30 @@ int buscaPrimerCaracter(string s){
     return -1;
 }
 
+/*
+void ejemplos(){
+    string ej1 = "loveletters";
+    string ej2 = "aabb";
+    string ej3 = "abcd";
+
+    int indiceEj1 = buscaPrimerCaracter(ej1);
+    int indiceEj2 = buscaPrimerCaracter(ej2);
+    int indiceEj3 = buscaPrimerCaracter(ej3);
 
 
+    cout << "Ejemplo 1:" << "\n";
+    cout << ej1 << " debe retornar: 1" 
+        << " retorna " << indiceEj1 << "\n";
+
+    cout << "Ejemplo 2:" << "\n";
+    cout << ej2 << " debe retornar: -1"
+         << " retorna " << indiceEj2 << "\n";
+
+    cout << "Ejemplo 3:" << "\n";
+    cout << ej3 << " debe retornar: 1"
+         << " retorna " << indiceEj3 << "\n";
+}
+*/
 
 /**
  * @brief Funcion "main" que se encarga de la entrada del programa.
@@ -65,14 +87,18 @@ int main(){
 
     // cadena a sacar el primer índice sin alguna repetición.
     string s;
-    
+
     // entrada del programa.
+    // Casos Prueba:
+    //          - "loveletters"
+    //          - "aabb"
+    //          - "abcd"
     cin >> s;
 
     // indice del primer caractér sin repetición en la cadena "s".
     int primer = buscaPrimerCaracter(s);
 
-    cout << primer << "\n";
+    cout << primer << "\n\n";
 
     return 0;
 }

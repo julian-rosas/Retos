@@ -48,7 +48,18 @@ string commonPrefix(vector<string> palabras){
     
     return prefijo;
 }
+/*
+void ejemplos(){
+    string ej1 = "[flower, flight, flown]";
+    string ej2 = "[dog, race, car]";
+    string ej3 = "[hola, hay, hora]";
+    string ej5 = "[ab, a, b]";
+    string ej4 = "[" "]";
 
+
+    
+}
+*/
 
 /**
  * @brief Funcion "main" que se encarga de la entrada del programa.
@@ -70,6 +81,12 @@ int main(){
     cin >> tam;
 
     // entrada de las palabras en el vector.
+    // Casos prueba:
+    //              - ["flower", "flight", "flown"]
+    //              - ["dog", "race", "car"]
+    //              - ["hola", "hay", "hora"]
+    //              - ["a", "b", "c"]
+    //              - [" "]
     for(int i = 0; i < tam; i++){
         string a;
         cin >> a;
