@@ -1,2 +1,2 @@
 # Retos
-Retos de pregramacion de la clase de Modelado y Programacion
+Retos de programacion de la clase de Modelado y Programacion
